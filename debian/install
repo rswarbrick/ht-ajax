@@ -1,0 +1,3 @@
+ht-ajax.asd usr/share/common-lisp/source/ht-ajax
+static/*.js usr/share/common-lisp/source/ht-ajax/js
+*.lisp usr/share/common-lisp/source/ht-ajax

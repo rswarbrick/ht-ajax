@@ -1,0 +1,12 @@
+Source: ht-ajax
+Section: lisp
+Priority: extra
+Maintainer: Rupert Swarbrick <rswarbrick@gmail.com>
+Build-Depends: quilt, debhelper (>= 7)
+Build-Depends-Indep: dh-lisp
+Standards-Version: 3.8.1
+
+Package: ht-ajax
+Architecture: any
+Depends: ${misc:Depends}, hunchentoot, cl-ppcre
+Description: Ajax support library for use with hunchentoot.
